@@ -81,6 +81,10 @@ public class KiteZerodhaHomePage {
 		return driver.getCurrentUrl();
 		
 	}
-
+	public String hk() {
+		dashboard.click();
+		return driver.getCurrentUrl();
+		
+	}
 
 }
